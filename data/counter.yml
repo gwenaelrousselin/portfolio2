@@ -2,13 +2,13 @@ enable : true
 heading : "Mes compétences ? "
 counter_item: 
   - title: "Design"
-    number: "Illustrator Photoshop"
+    number: "Ai Ps"
 
   - title: "Mise en page"
-    number: "InDesign"
+    number: "Id"
 
   - title: "vidéo et animation"
-    number: "Pr pro After effect"
+    number: "Pr Ae"
 
   - title: "Web"
     number: "Hugo CSS"
