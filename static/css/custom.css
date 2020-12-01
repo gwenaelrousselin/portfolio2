@@ -1,0 +1,117 @@
+/**
+ * Feuille de style personnalisée
+ ============================================ */
+
+
+ /* Base */
+body {
+    font-size: 1.2rem;
+}
+img {
+    max-width: 100%;
+    line-height: 0;
+    vertical-align: middle;
+}
+
+p {
+    font-size: inherit;
+}
+
+
+ /* Bouton */
+.btn-primary {
+    background: #497b9e;
+    color: #fff;
+}
+
+.btn-secondary {
+    background: #d6bc2e;
+    color: #fff;
+}
+
+/* Navbar */
+.navbar {
+background-color: #d6bc2e;
+}
+.site-counter {
+    padding: 85px 0;
+    color: #fff;
+    background: #d6bc2e;
+}
+.site-footer {
+    background: #d6bc2e;
+    padding: 100px 0;
+}
+/*logo d'entête*/
+.wez {
+    width : 75px
+}
+/*titre de la page d'accueil*/
+.site-hero-content h1 {
+    font-family: montserrat,sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+}
+/*bouton/mots de la barre d'entête*/
+.site-navigation .nav-item .nav-link {
+    font-family: montserrat,sans-serif;
+    color: #ffffff;
+    transition: all .3s ease;
+    padding: 15px 20px;
+    position: relative;
+}
+/*réglages du menu burger*/
+.site-navigation .navbar-toggler .icon-bar {
+    height: 2px;
+    width: 25px;
+    transition: all .2s;
+    background: #497b9e;
+    display: block;
+}
+.site-project-cta {
+    margin-top: 30px;
+    display: inline-block;
+    position: relative;
+    font-family: montserrat,sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #497b9e;
+}
+/*texte sur les visuels du portfolio*/
+.site-project-item-content span, .site-blog-post-content span {
+    font-family: montserrat,sans-serif;
+    color: #497b9e;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.site-project-single-excerpt {
+    font-size: 1.6em;
+}
+/* réglages des mots de couleur dans les titres
+titre du contact*/
+.site-contact-title span {
+    color: #497b9e;
+}
+/*pour le titre du portfolio*/
+.site-project-header-content h1 span {
+    color: #497b9e;
+}
+/*réglages formulaire prendre contact*/
+.form-control {
+    background: 0 0;
+    border-radius: 0;
+    margin-bottom: 30px;
+    padding: 0 0 10px;
+    border-width: 0 0 1px;
+    border-color: #497b9e;
+    font-weight: 300;
+    letter-spacing: 1px;
+    -webkit-appearance: none;
+    height: 42px;
+}
+/*réglages de l'indicateur de page 1/2 etc*/
+.site-project-pagination .pagination .page-item.active .page-link, .site-blog-pagination .pagination .page-item.active .page-link {
+    background-color: #d6bc2e;
+    color: #497b9e;
+}
